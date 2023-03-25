@@ -1,0 +1,642 @@
+/*-----------------------------------------------------------------------------------
+
+	Template Name: Version College
+	Template URI: http://coderitem.com
+	Description: This is Version College web site. 
+	Author: SA Bappy
+	Author URI: http://sabappy.com
+	License: GNU General Public License version 3.0
+	License URI: http://www.gnu.org/licenses/gpl-3.0.html
+	Version: 1.0
+
+-----------------------------------------------------------------------------------
+
+	1. Typography
+	2. Header Top Area 
+	3. Header Area 
+
+-----------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------------------------
+
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
+
+-----------------------------------------------------------------------------------*/
+
+/*****************************************************/
+/**************    1. Typography   *******************/
+/*****************************************************/
+
+* {
+	margin: 0;
+	padding: 0
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+	color: #333333;
+	background: #FFFFFF;
+	font-weight: 500;
+}
+
+a {
+	text-decoration: none;
+	display: inline-block;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	font-size: 60px;
+	font-weight: 500;
+}
+
+img {
+	border: none;
+	max-width: 100%
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+button:focus {
+	border: none;
+	outline: none;
+	box-shadow: none;
+}
+
+input:focus {
+	border: none;
+	outline: none;
+	box-shadow: none;
+}
+
+.align-center {
+	align-items: center;
+}
+
+.sec-padding {
+	padding: 100px 0px;
+}
+
+.np {
+	padding: 0;
+}
+
+
+/*****************************************************/
+/**************    3. Header top Area     ******************/
+/*****************************************************/
+
+.header-top-area {
+	padding: 15px 0px;
+	background: #3F4964;
+	position: relative;
+}
+
+.header-top-area.sticky-nav {
+	position: sticky;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: 99999999;
+	transition: 1s;
+}
+
+.overlays-1 {
+	position: absolute;
+	width: 50%;
+	background-color: rgba(225, 225, 225, 0.4);
+	height: 25px;
+	top: 0;
+	right: 0;
+}
+
+.overlay-menu ul {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: end;
+
+}
+
+.overlay-menu ul li a {
+	font-size: 9px;
+	color: white;
+
+}
+
+.overlay-menu ul li i {
+	color: #FFC170;
+	font-size: 9px;
+
+}
+
+.logo-area {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.logo-area img {
+	width: 200px;
+}
+
+.menu-area {
+	margin-top: 30px;
+}
+
+.menu-area ul {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.menu-area ul li a {
+	font-size: 12px;
+	font-weight: bold;
+	color: white;
+	text-transform: uppercase;
+}
+
+.menu-area ul li a:hover {
+	color: #FFC170;
+}
+
+.menu-area ul li a span {
+	color: #FFC170;
+	margin-left: 7px;
+}
+
+.menu-area ul li a span:hover {
+	color: white;
+}
+
+.menu-area ul li i {
+	color: white;
+
+}
+
+
+/*****************************************************/
+/**************    4. inner Area  ****************/
+/*****************************************************/
+
+.inner-bann-sec {
+	padding: 140px 0px 320px;
+	position: relative;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: left;
+}
+
+.inner-bann-sec::after {
+	position: absolute;
+	content: '';
+	width: 100%;
+	height: 100%;
+	background: #09132E url(img/Mask\ Group\ 33.png);
+	background-size: contain;
+	background-position: right;
+	top: 0;
+	right: 0;
+	background-repeat: no-repeat;
+	z-index: -1;
+	opacity: 90%;
+}
+
+.inner-banner {
+	width: 100%;
+	margin-left: auto;
+	margin-right: 100px;
+	max-width: 720px;
+}
+
+.inner-banner h1 {
+	color: #FFC170;
+	font-size: 50px;
+	font-weight: normal;
+}
+
+.inner-banner p {
+	color: white;
+	font-size: 16px;
+	font-weight: normal;
+
+}
+
+.inner-banner p a {
+	color: rgb(97, 95, 95);
+	font-size: 16px;
+	font-weight: 500;
+
+}
+
+
+
+.box-item {
+	position: absolute;
+	width: 800px;
+	align-items: center;
+	justify-content: center;
+	padding: 60px;
+	background: white;
+	box-shadow: 0px 13px 26px rgba(56, 84, 142, 0.18);
+	left: 0;
+	right: 0;
+	margin: auto;
+	box-sizing: border-box;
+	top: 68%;
+}
+
+.box-content p {
+	font-size: 19px;
+	color: #3F4964;
+	font-weight: normal;
+	line-height: 31px;
+}
+
+
+
+/*****************************************************/
+/**************    3.  dental crown Area     ******************/
+/*****************************************************/
+.dental-crown {
+	max-width: 800px;
+	width: 100%;
+	left: 0;
+	right: 0;
+	margin: 250px auto 100px auto;
+}
+
+.dental-crown p {
+	font-size: 19px;
+	font-weight: normal;
+	color: #3F4964;
+	line-height: 31px;
+	text-align: center;
+}
+
+.dental-crown h4 {
+	text-align: center;
+	margin: 40px 0px 30px 0px;
+	font-size: 25px;
+	text-transform: uppercase;
+	color: #3F4964;
+	font-weight: normal;
+}
+
+.dental-crown h2 {
+	font-size: 40px;
+	color: #3F4964;
+	font-weight: normal;
+	margin: 50px 0px;
+	text-align: center;
+}
+
+.dental-crown span {
+	width: 300px;
+	height: 1px;
+	background: gray;
+	display: block;
+	margin: 65px auto;
+}
+
+.after-before-img {
+	margin-bottom: 30px;
+}
+
+/*****************************************************/
+/**************    4. Banner Area  ****************/
+/*****************************************************/
+
+
+
+
+
+
+/*****************************************************/
+/**************    4. Footer Area  ****************/
+/*****************************************************/
+
+
+
+
+/*****************************************************/
+/**************    4.shediul Area  ****************/
+/*****************************************************/
+
+.cosmatic-shediul-area {
+	width: 100%;
+	height: 100%;
+	background: #FFC170;
+}
+
+
+.shediul {
+	max-width: 800px;
+	width: 100%;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	background: #F2F5FC;
+	padding: 57px 135px;
+}
+
+.shediul h2 {
+	font-size: 40px;
+	color: #3F4964;
+	line-height: 53px;
+	font-weight: normal;
+}
+
+.shediul p {
+	margin-top: 13px;
+	font-size: 18px;
+	font-weight: normal;
+	color: #3F4964;
+	line-height: 30px;
+}
+
+
+
+/*****************************************************/
+/**************    4. page upgrade Area  ****************/
+/*****************************************************/
+/*****************************************************/
+.page-taxt {
+	max-width: 800px;
+	left: 0;
+	right: 0;
+	margin: 40px auto;
+}
+
+.page-taxt p {
+	font-size: 13px;
+	text-align: center;
+	color: #3F4964;
+	font-weight: normal;
+	padding-bottom: 40px;
+	border-bottom: 1px solid #FFC170;
+}
+
+
+.info-area {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 40px;
+}
+
+.place-area {
+	flex: 1;
+	border-right: 1px solid #3F4964;
+}
+
+.place-area h6 {
+	color: #3F4964;
+	font-size: 14px;
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+
+.place-area ul li {
+	padding: 6px 0px;
+}
+
+.place-area ul li a {
+	font-size: 14px;
+	color: #3F4964;
+	font-weight: normal;
+}
+
+.btn {
+	flex: 1;
+}
+
+.btn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.btn a {
+	font-size: 15px;
+	color: #3F4964;
+	padding: 8px 32px;
+	border: 1px solid #3F4964;
+	position: relative;
+	z-index: 99999;
+	transition: 1s;
+}
+
+.btn a::after {
+	position: absolute;
+	content: "";
+	width: 100%;
+	height: 0;
+	background: #FFC170;
+	bottom: 0;
+	right: 0;
+	z-index: -1;
+	transition: 0.3s;
+}
+
+.btn a:hover:after {
+	height: 50%;
+}
+
+.btn a::before {
+	position: absolute;
+	content: "";
+	width: 100%;
+	height: 0;
+	background: #FFC170;
+	top: 0;
+	right: 0;
+	z-index: -1;
+	transition: 0.3s;
+}
+
+.btn a:hover:before {
+	height: 50%;
+}
+
+
+
+
+
+/**************    4. Footer Area  ****************/
+/*****************************************************/
+.footer-top {
+	display: flex;
+}
+
+.footer-top>div {
+	flex: 1;
+}
+
+.single-footer {
+	background-color: #3F4964;
+	padding: 50px 70px 40px;
+}
+
+.single-footer span {
+	text-align: center;
+	color: #FFC170;
+	font-size: 22px;
+	font-weight: normal;
+	margin-bottom: 20px;
+	display: block;
+	border-bottom: 1px solid #FFC170;
+	padding-bottom: 30px;
+	padding-left: 0;
+}
+
+.single-footer p {
+	font-size: 16px;
+	text-align: left;
+	color: white;
+	font-weight: normal;
+	line-height: 30px;
+	padding-left: 60px;
+}
+
+.single-footer a {
+	font-size: 16px;
+	text-align: left;
+	color: white;
+	font-weight: normal;
+	line-height: 30px;
+	padding-left: 60px;
+}
+
+
+.single-footer-mid {
+	background-color: #3F4964;
+	padding: 50px 70px 40px;
+	opacity: 90%;
+}
+
+.single-footer-mid span {
+	text-align: center;
+	color: #FFC170;
+	font-size: 22px;
+	font-weight: normal;
+	margin-bottom: 20px;
+	display: block;
+	border-bottom: 1px solid #FFC170;
+	padding-bottom: 30px;
+	padding-left: 0;
+}
+
+.single-footer-mid p {
+	font-size: 16px;
+	text-align: left;
+	color: white;
+	font-weight: normal;
+	line-height: 30px;
+	padding-left: 60px;
+}
+
+.single-footer iframe {
+	height: 250px;
+	border: none;
+	display: block;
+	margin-left: 40px;
+}
+
+.single-footer a.dir-link {
+	font-size: 16px;
+	font-weight: normal;
+	padding-left: 38px;
+	color: #FFC170;
+	text-decoration: underline;
+	margin-top: 5px;
+}
+
+.footer-bottom {
+	background: #27304A;
+	padding: 30px 15px;
+}
+
+.footer-bottom ul {
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.footer-bottom ul li {
+	padding: 0px 20px;
+	border-right: 1px solid white;
+}
+
+.footer-bottom ul li:last-child {
+	border-right: none;
+}
+
+.footer-bottom ul li a {
+	font-size: 16px;
+	color: white;
+	font-weight: normal;
+
+}
+
+.footer-bottom ul li a:hover {
+	color: #FFC170;
+
+}
+
+.footer-copy {
+	margin-top: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.footer-copy p {
+	font-size: 16px;
+	color: white;
+	line-height: 30px;
+}
+
+.footer-copy ul {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 20px;
+}
+
+.footer-copy ul li {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	width: 50px;
+	height: 50px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+
+}
